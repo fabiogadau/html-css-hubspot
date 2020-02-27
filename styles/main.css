@@ -61,12 +61,6 @@ body {
   height: 100px;
 }
 
-.header-nav a:hover,
-.header-nav a:active,
-.header-nav a:focus {
-  color: #f9d28c;
-}
-
 .header-nav-left,
 .header-nav-right {
   width: 50%;
@@ -107,6 +101,12 @@ body {
   color: #fe775a;
 }
 
+.header-nav a:hover,
+.header-nav a:active,
+.header-nav a:focus {
+  color: #f9d28c;
+}
+
 /*Fine Header Nav*/
 
 /*Header Nav 2*/
@@ -127,9 +127,17 @@ body {
 }
 
 .header-nav2-right {
+  float: right;
   text-align: right;
+  padding-left: 115px;
 }
 
 .header-logo {
   line-height: 2;
+}
+
+.header-nav2 a:hover,
+.header-nav2 a:active,
+.header-nav2 a:focus {
+  color: #f9d28c;
 }
