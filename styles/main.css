@@ -81,8 +81,18 @@ body {
 
 /*Header*/
 .header-nav-container {
-  padding-top: 30px;
-  padding-bottom: 30px;
   background-color: #f4f9fd;
   border-bottom: 1px solid black;
+}
+
+.header-nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100px;
+}
+
+.header-nav a:hover,
+.header-nav a:active,
+.header-nav a:focus {
+  color: #f9d28c;
 }
