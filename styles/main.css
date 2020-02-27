@@ -49,7 +49,7 @@ body {
   color: #ffffff;
 }
 
-/*Header*/
+/*Header Nav*/
 .header-nav-container {
   background-color: #f4f9fd;
   border-bottom: 1px solid black;
@@ -105,4 +105,31 @@ body {
   background-color: #fafcfe;
   border: 1px solid #fe775a;
   color: #fe775a;
+}
+
+/*Fine Header Nav*/
+
+/*Header Nav 2*/
+.header-nav2-container {
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+}
+
+.header-nav2 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  height: 100px;
+}
+
+.header-nav2-right,
+.header-logo {
+  width: 50%;
+}
+
+.header-nav2-right {
+  text-align: right;
+}
+
+.header-logo {
+  line-height: 2;
 }
