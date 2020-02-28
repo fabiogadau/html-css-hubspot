@@ -48,6 +48,10 @@ a:focus {
   border-radius: 5px;
 }
 
+.br2 {
+  border-radius: 2px;
+}
+
 .pad10 {
   padding: 10px;
 }
@@ -73,6 +77,18 @@ a:focus {
 
 .main-color {
   background-color: #f4f9fd;
+}
+
+.box-shadow {
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.check {
+  color: #fe775a;
 }
 /*Fine Utilities*/
 
@@ -220,7 +236,7 @@ main {
 
 /*Main Content 1*/
 .main-content1-container {
-  height: 500px;
+  height: 460px;
   position: relative;
 }
 
@@ -243,8 +259,40 @@ main {
 
 /*Main Content 2*/
 .main-content2-container {
-  height: 500px;
-  border: 1px solid black;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-content2 {
+  height: 400px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.main-logo img {
+  height: 110px;
+  width: 135px;
+}
+
+.main-logo {
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  height: 400px;
+  width: 30%;
+  padding-top: 90px;
+  padding-right: 0px;
+  padding-left: 155px;
+  text-align: center;
+}
+
+.free-hub {
+  height: 400px;
+  width: 63%;
+  float: right;
+  padding-top: 70px;
 }
 /*Fine Main Content 2*/
 
@@ -253,6 +301,9 @@ main {
   height: 1000px;
   border: 1px solid black;
 }
+ .main2-p {
+   margin-right: 20px;
+ }
 /*Fine Main Content 3*/
 
 /*Fine Main*/
