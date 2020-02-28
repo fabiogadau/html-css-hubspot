@@ -163,6 +163,7 @@ a:focus {
   background-position: 100% 100%;
   position: relative;
   padding-top: 101px;
+  margin-bottom: 30px;
 }
 
 .jumbotron-container {
@@ -216,3 +217,42 @@ main {
   height: 2500px;
   border-bottom: 1px solid black;
 }
+
+/*Main Content 1*/
+.main-content1-container {
+  height: 500px;
+  position: relative;
+}
+
+.main-content1 {
+  height: 300px;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  top: 35%;
+}
+
+.main1-logo img {
+  height: 200px;
+  width: 250px;
+}
+/*Fine Main Content 1*/
+
+/*Main Content 2*/
+.main-content2-container {
+  height: 500px;
+  border: 1px solid black;
+}
+/*Fine Main Content 2*/
+
+/*Main Content 3*/
+.main-content3-container {
+  height: 1000px;
+  border: 1px solid black;
+}
+/*Fine Main Content 3*/
+
+/*Fine Main*/
