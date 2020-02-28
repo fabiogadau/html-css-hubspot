@@ -4,14 +4,13 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  text-decoration: none;
 }
 
 body {
   font-family: 'Montserrat';
   font-size: 16px;
-  color: #33475b;
   font-weight: 400;
+  color: #33475b;
 }
 
 /*Utilities*/
@@ -28,11 +27,21 @@ body {
 
 .float-left {
   float: left;
+}
+
+.i-b {
   display: inline-block;
 }
 
-.color-hub {
+a {
   color: #33475b;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #f9d28c;
 }
 
 .br5 {
@@ -57,15 +66,29 @@ body {
 .w-50 {
   width: 50%;
 }
+
+.vw {
+  width: 100vw;
+}
+
+.main-color {
+  background-color: #f4f9fd;
+}
 /*Fine Utilities*/
 
 /*Header Nav*/
 .header-nav-container {
+  height: 101px;
   background-color: #f4f9fd;
   border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
 }
 
 .header-nav {
+  background-color: #f4f9fd;
   padding-top: 30px;
   padding-bottom: 30px;
   height: 100px;
@@ -105,17 +128,12 @@ body {
   border: 1px solid #fe775a;
   color: #fe775a;
 }
-
-.header-nav a:hover,
-.header-nav a:active,
-.header-nav a:focus {
-  color: #f9d28c;
-}
 /*Fine Header Nav*/
 
 /*Header Nav 2*/
 .header-nav2-container {
   background-color: #ffffff;
+  height: 100px;
 }
 
 .header-nav2 {
@@ -133,12 +151,6 @@ body {
 .header-logo {
   line-height: 2;
 }
-
-.header-nav2 a:hover,
-.header-nav2 a:active,
-.header-nav2 a:focus {
-  color: #f9d28c;
-}
 /*Fine Header Nav 2*/
 
 /*Jumbotron*/
@@ -150,6 +162,7 @@ body {
   background-repeat: no-repeat;
   background-position: 100% 100%;
   position: relative;
+  padding-top: 101px;
 }
 
 .jumbotron-container {
@@ -173,16 +186,33 @@ body {
 }
 
 .jumbo-margin {
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 15px;
+  display: block;
+}
+
+.get-btn {
+  display: inline-block;
+}
+
+.jumbo-get {
+  font-size: 12px;
+  display: block;
 }
 
 .strip {
   width: 100%;
-  height: 71px;
+  height: 100px;
   background-color: #afebe4;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
   position: absolute;
   top: 91%;
+}
+/*Fine Jumbotron*/
+
+/*Main*/
+main {
+  height: 2500px;
+  border-bottom: 1px solid black;
 }
