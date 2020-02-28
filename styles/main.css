@@ -294,16 +294,20 @@ main {
   float: right;
   padding-top: 70px;
 }
+
+.main2-p {
+   margin-right: 20px;
+ }
 /*Fine Main Content 2*/
 
 /*Main Content 3*/
 .main-content3-container {
-  height: 1000px;
+  height: 700px;
   border: 1px solid black;
 }
- .main2-p {
-   margin-right: 20px;
- }
+
+ /*Ricordarmi di usare le classi, ad esempio per i loghi c'è ed è .main-logo*/
+
 /*Fine Main Content 3*/
 
 /*Fine Main*/
