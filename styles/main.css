@@ -421,7 +421,50 @@ main {
 }
 /*Fine Main Content 4*/
 
-/*Main Content 4*/
+/*Main Content 5*/
+.main-content5-container {
+  height: 680px;
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+}
 
-/*Fine Main Content 4*/
+.main-content5 {
+  height: 680px;
+}
+
+.main-content5-1 {
+  height: 250px;
+}
+
+.n-customer {
+  height: 250px;
+  width: 40%;
+  position: relative;
+}
+
+.brand {
+  height: 250px;
+  width: 60%;
+}
+
+.customers {
+  height: 160px;
+  width: 70%;
+  padding-right: 0px;
+  padding-left: 85px;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.n-customer p {
+  line-height: 150%;
+}
+
+.main-content5-2 {
+  height: 250px;
+  width: 60%;
+}
+/*Fine Main Content 5*/
 /*Fine Main*/
