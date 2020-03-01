@@ -442,7 +442,7 @@ main {
   position: relative;
 }
 
-.brand {
+.brands {
   height: 250px;
   width: 60%;
 }
@@ -464,7 +464,46 @@ main {
 
 .main-content5-2 {
   height: 250px;
-  width: 60%;
+}
+
+.brands-strip1,
+.brands-strip2 {
+  height: 70px;
+}
+
+.brand-small,
+.brand,
+.brand-wistia {
+  width: 25%;
+  height: 60px;
+  position: relative;
+}
+
+.brand-small img {
+  height: 18px;
+  position: absolute;
+  top: 20%;
+}
+
+.brand img {
+  height: 40px;
+}
+
+.brand-wistia img {
+  height: 18px;
+  position: absolute;
+  top: 20%;
+}
+
+.brands {
+  position: relative;
+}
+
+.brands-container {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  top: 25%;
 }
 /*Fine Main Content 5*/
 /*Fine Main*/
