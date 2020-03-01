@@ -520,3 +520,41 @@ main {
 }
 /*Fine Main Content 5*/
 /*Fine Main*/
+
+/*Footer*/
+footer {
+  height: 730px;
+  background-color: #32495b;
+  color: #dadee0;
+}
+
+footer a {
+  color: #dadee0;
+  line-height: 250%;
+}
+
+.footer-list {
+  padding-top: 30px;
+}
+
+.btn-grey {
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: #dadee0;
+  color: #32495b;
+}
+
+.btn-grey:hover,
+.btn-grey:active,
+.btn-grey:focus {
+  color: #fe775a;
+}
+
+.social-list {
+  margin-right: 20px;
+}
+
+.footer-content-container1 {
+  height: 410px;
+}
+/*Fine Footer*/
