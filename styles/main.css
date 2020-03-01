@@ -233,8 +233,7 @@ a:focus {
 
 /*Main*/
 main {
-  height: 4000px;
-  border-bottom: 1px solid black;
+  height: 2990px;
 }
 
 /*Main Content 1*/
@@ -423,13 +422,12 @@ main {
 
 /*Main Content 5*/
 .main-content5-container {
-  height: 680px;
+  height: 730px;
   background-color: #ffffff;
-  border-bottom: 1px solid black;
 }
 
 .main-content5 {
-  height: 680px;
+  height: 730px;
 }
 
 .main-content5-1 {
@@ -460,10 +458,6 @@ main {
 
 .n-customer p {
   line-height: 150%;
-}
-
-.main-content5-2 {
-  height: 250px;
 }
 
 .brands-strip1,
@@ -504,6 +498,25 @@ main {
   height: 140px;
   position: absolute;
   top: 25%;
+}
+
+.main-content5-2 {
+  height: 480px;
+}
+
+.woman {
+  position: relative;
+}
+
+.woman img {
+  height: 400px;
+  position: absolute;
+  left: 45%;
+}
+
+.start {
+  width: 45%;
+  padding-top: 20px;
 }
 /*Fine Main Content 5*/
 /*Fine Main*/
