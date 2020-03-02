@@ -72,7 +72,7 @@ a:focus {
 }
 
 .vw {
-  width: 100vw;
+  width: 100%;
 }
 
 .main-color {
